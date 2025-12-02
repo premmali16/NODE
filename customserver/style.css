@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  
+
+  background: linear-gradient(135deg, #000428, #004e92);
+
+
+  /* background: linear-gradient(135deg, #0fcec3, #1e3c72); */
+  /* Soft teal to deep blue */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* New Stylish Button */
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-weight: 600;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: 0.4s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #000;
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Fade Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
