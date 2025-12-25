@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    min-height: 80vh;
+    width: 100%;
+    background: rgb(232, 173, 9);
+    background: linear-gradient(90deg, rgba(232, 173, 9, 1) 0%, rgba(207, 74, 7, 1) 100%);
+
+}
+
+.left h1 {
+    margin-top: 40px;
+    font-size: 64px;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    color: #333333;
+}
+
+.left p {
+    color: white;
+    font-family: Inter, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.left button {
+    display: block;
+    background-color: white;
+    border-radius: 22px;
+    border: none;
+    color: #000;
+    border-radius: 17px;
+    margin-top: -17px;
+    padding: 20px 40px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: Inter, sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.cards img{
+    width: 25%;
+    border-radius: 50px;
+}
+
+.cards img:hover{
+    transition: 1s;
+    border: 50px;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.7));
+}
+
+.new-img2 {
+    color: white;
+    width: 35%;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.end-part {
+    display: flex;
+}
+
+.left1 h1 {
+    font-size: 48px;
+    /* line-height: 60px; */
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-align: left;
+    animation: focus both;
+    animation-timeline: view(70% 5%);
+}
+
+.left1 h2 {
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 29px; */
+    font-family: Inter, sans-serif;
+    animation: focus both;
+    animation-timeline: view(70% 5%);
+}
+
+.left2 h1 {
+    text-align: center;
+    font-size: 48px;
+    /* line-height: 60px; */
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    color: #333333;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.left2 h2 {
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 29px; */
+    font-family: Inter, sans-serif;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.left2 h3 {
+    color: orange;
+    font-family: Inter, sans-serif;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.left3 h1 {
+    font-size: 48px;
+    /* line-height: 60px; */
+    text-align: left;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: #333333;
+   animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.left3 h2 {
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 29px; */
+    font-family: Inter, sans-serif;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+
+}
+
+.left3 h3 {
+    color: orange;
+    font-family: Inter, sans-serif;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+
+}
+
+.left4 h1 {
+    font-size: 48px;
+    /* line-height: 60px; */
+    text-align: left;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: #333333;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.left4 h2 {
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 29px; */
+    font-family: Inter, sans-serif;
+    width: 80%;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.left5 h1 {
+    font-size: 48px;
+    /* line-height: 60px; */
+    text-align: left;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: #333333;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.left5 h2 {
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 29px; */
+    font-family: Inter, sans-serif;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.left5 h3 {
+    color: orange;
+    font-family: Inter, sans-serif;
+    animation: focus both;
+    animation-timeline: view(70% 5%); 
+}
+
+.right1 img{
+        animation: focus both;
+        animation-timeline: view(70% 5%);
+    
+}
+
+.right2 img{
+    animation: focus both;
+    animation-timeline: view(70% 5%);
+}
+
+.right3 img{
+    animation: focus both;
+    animation-timeline: view(70% 5%);
+}
+
+.right4 img{
+    animation: focus both;
+    animation-timeline: view(70% 5%);
+}
+
+
+.cta {
+    margin-top: 20px;
+    background: rgb(232, 173, 9);
+    background: linear-gradient(90deg, rgba(232, 173, 9, 1) 0%, rgba(207, 74, 7, 1) 100%);
+    text-align: center;
+    animation: focus both;
+    /* animation-timeline: view(70% 5%);  */23.
+}
+
+.cta h1 {
+    padding-top: 50px;
+    font-weight: 900;
+    font-family: Inter, sans-serif;
+    font-size: 55px;
+    color: #333333;
+}
+
+.cta button {
+    background-color: white;
+    border-radius: 22px;
+    border: none;
+    color: #000;
+    border-radius: 17px;
+    margin-top: 50px;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.cta p {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.cta h3 {
+    width: 58%;
+    margin: auto;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.container-1 {
+    margin: 100px 0px;
+}
+
+
+.footer {
+    background-color: #f4f7f6;
+    padding: 20px;
+}
+
+.footer a {
+    color: #899097;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #000;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #000;
+    margin-right: 15px;
+}
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    /* padding: 20px; */
+    background-color: aliceblue;
+    font-family: Inter, sans-serif;
+    display: block;
+    display: flex;
+}
+
+.footer-links a {
+    margin-left: 400px;
+    color: #8daeba;
+    font-size: 25px;
+    font-family: Inter, sans-serif;
+}
+
+.footer-links2 a {
+    margin-left: 100px;
+    color: #8daeba;
+    font-size: 25px;
+}
+
+.footer-img img {
+    display: none;
+
+}
+
+.intro {
+    color: #596e82;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+}
+
+/* animation  */
+@keyframes focus{
+    from {
+        opacity: 0;
+        transform: translateX(200px) scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px) scale(1); /* Added missing semicolon */
+    }
+}
+
+.left h1,p,button {
+            font-size: 3em;
+            color: #333;
+            opacity: 0;
+            transform: translateX(-100%) scale(0.5);
+            animation: slideInScale 1.5s ease-out forwards;
+        }
+
+        @keyframes slideInScale {
+           0% { opacity: 0; transform: translateX(-100%) scale(0.5); }
+            50% { opacity: 1; transform: translateX(0) scale(1.2); }
+            100% { opacity: 1; transform: translateX(0) scale(1); }
+        }
+
