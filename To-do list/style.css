@@ -1,0 +1,252 @@
+/* ======================
+   RESET
+====================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======================
+   BODY & BACKGROUND
+====================== */
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  background:
+    radial-gradient(circle at top left, #dbeafe 0%, transparent 45%),
+    radial-gradient(circle at bottom right, #ede9fe 0%, transparent 50%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+  color: #1e293b;
+}
+
+/* ======================
+   APP
+====================== */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ======================
+   TOP BAR
+====================== */
+.topbar {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: #ffffff;
+  padding: 28px 14px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.45);
+}
+
+.topbar h1 {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.topbar .subtitle {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* ======================
+   CONTAINER
+====================== */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 24px;
+}
+
+/* ======================
+   PANELS
+====================== */
+.panel {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* ======================
+   HEADINGS
+====================== */
+.form-panel h2,
+.list-panel h2 {
+  margin-bottom: 14px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+/* ======================
+   FORM
+====================== */
+.row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.row label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #475569;
+  font-weight: 600;
+}
+
+input[type="text"],
+select {
+  padding: 12px 15px;
+  border-radius: 12px;
+  border: 1px solid #c7d2fe;
+  background: #f8fafc;
+  font-size: 14px;
+  color: #1e293b;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: #6366f1;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+/* ======================
+   BUTTONS
+====================== */
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  padding: 11px 16px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: #ffffff;
+}
+
+.btn.muted {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.btn.small {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.btn.danger {
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  color: #ffffff;
+}
+
+/* ======================
+   TABLE
+====================== */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: 16px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+thead th {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: #ffffff;
+  text-align: left;
+  padding: 15px 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+tbody td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #1e293b;
+}
+
+tbody tr:hover {
+  background: #eef2ff;
+}
+
+/* ======================
+   ACTIONS COLUMN
+====================== */
+.actions-cell {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.actions-cell .btn {
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+/* ======================
+   ALERTS
+====================== */
+.alert {
+  padding: 12px 14px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.alert.success {
+  background: linear-gradient(135deg, #4ade80, #22c55e);
+}
+
+.alert.error {
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+}
+
+/* ======================
+   FOOTER
+====================== */
+.footer {
+  padding: 18px;
+  text-align: center;
+  color: #64748b;
+  font-size: 13px;
+}
+
+/* ======================
+   RESPONSIVE
+====================== */
+@media (max-width: 880px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 0 14px;
+  }
+}
